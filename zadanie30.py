@@ -7,5 +7,4 @@ def prugressia():
         an = a1 + (i-1)*d
         lst.append(an)
     print(lst)
-
 prugressia()

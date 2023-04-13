@@ -4,9 +4,7 @@ def poisk(A, B):
     for i in range (len(lst)):
         if lst[i]> A and lst[i]<B :
             lst_index.append(i)
-
     print("перечень индексов элементов входящих в диапазон :", lst_index)
-
 A = int(input("введите Нижний диапазон поиска : "))
 B = int(input("введите Верхний диапазон поиска : "))
 poisk(A, B)
